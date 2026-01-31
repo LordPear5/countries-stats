@@ -31,7 +31,7 @@ ChartJS.register(
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Router>
+      <Router base="/countries-stats">
         <main className="main_contents">
           <NavBar />
           <div className="contents">
